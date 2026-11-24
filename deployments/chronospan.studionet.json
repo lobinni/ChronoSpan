@@ -1,0 +1,36 @@
+{
+  "contract": "ChronoSpan",
+  "schema": "chronospan/v1",
+  "network": "studionet",
+  "address": "0x499D1d2b5ee169b89Fa20aB426B754E8579EE2dd",
+  "explorer": "https://explorer-studio.genlayer.com/address/0x499D1d2b5ee169b89Fa20aB426B754E8579EE2dd",
+  "source": "contracts/chrono_span.py",
+  "source_sha256": "8a6412255eb6dd0c941af3187f1005f3b5c628cbc6aeb182f722acf2d07eac27",
+  "deployment_tx": null,
+  "deployer": null,
+  "recorded_on": null,
+  "public_methods": [
+    "import_schedule",
+    "get_table",
+    "list_tables",
+    "table_meta",
+    "coverage",
+    "measure",
+    "shift",
+    "advance",
+    "rewind",
+    "next_transition"
+  ],
+  "expected_after_import": {
+    "transition_count": 28,
+    "coverage_first_utc": "1972-01-01T00:00:00Z",
+    "coverage_last_utc_exclusive": "2027-06-28T00:00:00Z",
+    "fixture_table_id": "4594dd3d32ae3e871a79c1bf4b100f7147a70ca7eddd5788d32a37ebfb94033b"
+  },
+  "notes": [
+    "fixture_table_id is the digest of tests/fixtures/schedule.json, not of the live import: the publishers update their #$ field, which changes the canonical record and therefore the id.",
+    "coverage_last_utc_exclusive is derived from the fixture expiry 4023129600; a live table whose publishers shortened the expiry reports an earlier bound.",
+    "deployment_tx, deployer and recorded_on are left null until the deploy receipt is committed next to this file.",
+    "Verify the source hash against the explorer before trusting any call: sha256sum contracts/chrono_span.py must equal source_sha256."
+  ]
+}

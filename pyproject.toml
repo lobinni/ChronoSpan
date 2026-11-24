@@ -1,0 +1,6 @@
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "--strict-markers"
+markers = [
+    "vm: contract behaviour inside the genlayer-test direct-mode harness",
+]

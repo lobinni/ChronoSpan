@@ -1,0 +1,15 @@
+{
+  "schema": "chronospan/v1",
+  "files": [
+    {
+      "name": "iers_bulletin_c.list",
+      "bytes": 496,
+      "sha256": "17c9b90b00bdbe69d877286e0cd6287b65b0b3d8db399de2492a4653baf49e3d"
+    },
+    {
+      "name": "nist_leap_seconds.list",
+      "bytes": 492,
+      "sha256": "600b517f5f2137c5e2ec56216040002c672d415e7589c7392068be33f8f1e4e4"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+# Python >= 3.12 for the contract toolchain.
+# The deterministic suite (tests/test_*.py) needs only pytest and runs on
+# any Python >= 3.10.
+genlayer-test==0.29.2
+genvm-linter==0.11.0
+pytest>=9.0,<10
