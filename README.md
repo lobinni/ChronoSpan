@@ -47,10 +47,6 @@ requirements-dev.txt         genlayer-test, genvm-linter, pytest
 pyproject.toml  gltest.config.yaml
 ```
 
-Out of scope, at the repository root: `frontend/` (the documentation site)
-and `index.html` / `package.json` / `vite.config.ts` (its build shell).
-See [`../frontend/README.md`](../frontend/README.md).
-
 ## Quick start
 
 ```sh
