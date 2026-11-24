@@ -1,11 +1,5 @@
 # ChronoSpan
 
-**This folder is the GenLayer submission.** Everything needed to lint, test,
-deploy and verify the Intelligent Contract is here; nothing from
-[`../frontend/`](../frontend/README.md) ships with it.
-
-> Every command in this document runs from `intelligent/`.
-
 Leap-second aware UTC interval arithmetic as a GenLayer Intelligent Contract.
 
 ChronoSpan measures elapsed SI seconds between whole-second UTC labels and
